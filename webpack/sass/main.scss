@@ -93,6 +93,16 @@ $project-card-theme: $blue;
   }
 }
 
+.blog-entry {
+  .blog-title {
+    @extend .has-color-dark-slate-gray;
+  }
+
+  .author-name {
+    @extend .has-color-forest-green;
+  }
+}
+
 .card-columns {
   column-count: 2;
 }
@@ -110,13 +120,6 @@ $project-card-theme: $blue;
   }
   min-width: 20rem;
   max-width: 20rem;
-}
-
-.get-involved-card {
-  min-width: 16rem;
-  max-width: 20rem;
-  border: 0;
-  padding: 0.5rem 0rem;
 }
 
 .project-idea-header {
