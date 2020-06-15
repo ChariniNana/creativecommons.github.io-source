@@ -103,6 +103,28 @@ $project-card-theme: $blue;
   }
 }
 
+.recent-posts {
+  background-color: rgba(4, 166, 53, 0.1);
+
+  .container {
+    @extend .padding-vertical-xl;
+  }
+
+  .post-links {
+    @extend .has-color-forest-green;
+    @extend .body-normal;
+
+    font-weight: bold;
+    line-height: 1.5;
+    text-decoration: none;
+
+    .icon {
+      @extend .has-color-forest-green;
+      @extend .padding-left-small;
+    }
+  }
+}
+
 .card-columns {
   column-count: 2;
 }
